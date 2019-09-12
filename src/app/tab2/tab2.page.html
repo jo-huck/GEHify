@@ -1,9 +1,31 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Two
+      Bilder
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-button id="selectImageBtn" (click)="getImages()" expand="block"
+    >Bilder Wählen</ion-button
+  >
+  <ion-button color="medium" (click)="addLogo()" *ngIf="imageResponse" expand="block"
+    >Logo hinzufügen</ion-button
+    >
+    <ion-button color="success" (click)="save()" *ngIf="processed" expand="block">Speichern</ion-button>
+  <section>
+    <div class="images">
+      <div class="one-image" *ngFor="let img of imageProcessed">
+        <img src="{{ img }}" alt="" srcset="" />
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="images">
+      <div class="one-image" *ngFor="let img of imageResponse">
+        <img src="{{ img }}" alt="" srcset="" />
+      </div>
+    </div>
+  </section>
+</ion-content>

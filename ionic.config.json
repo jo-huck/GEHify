@@ -1,5 +1,8 @@
 {
   "name": "GEHify",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }
