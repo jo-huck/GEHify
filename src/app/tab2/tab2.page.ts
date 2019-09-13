@@ -100,26 +100,47 @@ export class Tab2Page {
       this.savebase64AsImageFile(folderpath, filename, realData, dataType);
     });
   }
-
+  calcPx(imageLenght, percent) {
+    return (imageLenght * (percent / 100));
+  }
+  getSmallSize(image) {
+    if (image.height < image.width) {
+      return image.height;
+    }else {
+      return image.width;
+    }
+  }
   addLogo() {
+    const logoSize = 30;
     for (var image of this.imageResponse) {
       watermark([image, '/assets/icon/watermark.svg'], {
         height: '2px'
       })
-        // .image((image, watermarkImage) => {
-        //   let context = image.getContext('2d');
-        //   context.save();
+        .image((image, watermarkImage) => {
+          let context = image.getContext('2d');
+          context.save();
 
-        //   // context.globalAlpha = alpha;
-        //   context.drawImage(
-        //     watermarkImage,
-        //     image.width - (watermarkImage.width - 10),
-        //     image.height - (watermarkImage.height - 10)
-        //     );
-        //     context.restore();
-        //     return target;
-        // })
-        .image(watermark.image.lowerRight())
+          // context.globalAlpha = alpha;
+          context.drawImage(
+            watermarkImage,
+            image.width -
+              ((watermarkImage.width / watermarkImage.width) *
+                this.calcPx(this.getSmallSize(image), logoSize) +
+                10),
+
+            image.height - ((watermarkImage.height / watermarkImage.width) *
+              this.calcPx(this.getSmallSize(image), logoSize) + 10),
+
+            (watermarkImage.width / watermarkImage.width) *
+              this.calcPx(this.getSmallSize(image), logoSize),
+
+            (watermarkImage.height / watermarkImage.width) *
+              this.calcPx(this.getSmallSize(image), logoSize)
+          );
+          context.restore();
+          return image;
+        })
+        // .image(watermark.image.lowerRight())
         .then(img => {
           this.imageProcessed.push(img.getAttribute('src'));
         });

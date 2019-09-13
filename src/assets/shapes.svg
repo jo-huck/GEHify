@@ -1,1 +1,145 @@
-<svg width="350" height="140" xmlns="http://www.w3.org/2000/svg" style="background:#f6f7f9"><g fill="none" fill-rule="evenodd"><path fill="#F04141" style="mix-blend-mode:multiply" d="M61.905-34.23l96.194 54.51-66.982 54.512L22 34.887z"/><circle fill="#10DC60" style="mix-blend-mode:multiply" cx="155.5" cy="135.5" r="57.5"/><path fill="#3880FF" style="mix-blend-mode:multiply" d="M208.538 9.513l84.417 15.392L223.93 93.93z"/><path fill="#FFCE00" style="mix-blend-mode:multiply" d="M268.625 106.557l46.332-26.75 46.332 26.75v53.5l-46.332 26.75-46.332-26.75z"/><circle fill="#7044FF" style="mix-blend-mode:multiply" cx="299.5" cy="9.5" r="38.5"/><rect fill="#11D3EA" style="mix-blend-mode:multiply" transform="rotate(-60 148.47 37.886)" x="143.372" y="-7.056" width="10.196" height="89.884" rx="5.098"/><path d="M-25.389 74.253l84.86 8.107c5.498.525 9.53 5.407 9.004 10.905a10 10 0 0 1-.057.477l-12.36 85.671a10.002 10.002 0 0 1-11.634 8.42l-86.351-15.226c-5.44-.959-9.07-6.145-8.112-11.584l13.851-78.551a10 10 0 0 1 10.799-8.219z" fill="#7044FF" style="mix-blend-mode:multiply"/><circle fill="#0CD1E8" style="mix-blend-mode:multiply" cx="273.5" cy="106.5" r="20.5"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="350"
+   height="140"
+   style="background:#f6f7f9"
+   version="1.1"
+   id="svg20"
+   sodipodi:docname="shapes.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata26">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs24">
+    <clipPath
+       id="clipPath18"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path16"
+         d="M 0,247.178 H 827.515 V 0 H 0 Z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="805"
+     inkscape:window-height="674"
+     id="namedview22"
+     showgrid="false"
+     inkscape:zoom="1.2828571"
+     inkscape:cx="175"
+     inkscape:cy="70"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg20" />
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g18">
+    <path
+       fill="#F04141"
+       style="mix-blend-mode:multiply"
+       d="M61.905-34.23l96.194 54.51-66.982 54.512L22 34.887z"
+       id="path2" />
+    <circle
+       fill="#10DC60"
+       style="mix-blend-mode:multiply"
+       cx="155.5"
+       cy="135.5"
+       r="57.5"
+       id="circle4" />
+    <path
+       fill="#3880FF"
+       style="mix-blend-mode:multiply"
+       d="M208.538 9.513l84.417 15.392L223.93 93.93z"
+       id="path6" />
+    <path
+       fill="#FFCE00"
+       style="mix-blend-mode:multiply"
+       d="M268.625 106.557l46.332-26.75 46.332 26.75v53.5l-46.332 26.75-46.332-26.75z"
+       id="path8" />
+    <circle
+       fill="#7044FF"
+       style="mix-blend-mode:multiply"
+       cx="299.5"
+       cy="9.5"
+       r="38.5"
+       id="circle10" />
+    <rect
+       fill="#11D3EA"
+       style="mix-blend-mode:multiply"
+       transform="rotate(-60 148.47 37.886)"
+       x="143.372"
+       y="-7.056"
+       width="10.196"
+       height="89.884"
+       rx="5.098"
+       id="rect12" />
+    <path
+       d="M-25.389 74.253l84.86 8.107c5.498.525 9.53 5.407 9.004 10.905a10 10 0 0 1-.057.477l-12.36 85.671a10.002 10.002 0 0 1-11.634 8.42l-86.351-15.226c-5.44-.959-9.07-6.145-8.112-11.584l13.851-78.551a10 10 0 0 1 10.799-8.219z"
+       fill="#7044FF"
+       style="mix-blend-mode:multiply"
+       id="path14" />
+    <circle
+       fill="#0CD1E8"
+       style="mix-blend-mode:multiply"
+       cx="273.5"
+       cy="106.5"
+       r="20.5"
+       id="circle16" />
+  </g>
+  <g
+     transform="matrix(0.51622945,0,0,-0.51622945,122.4678,137.89479)"
+     inkscape:label="Logo_Gesamtschule Höhscheid_CMYK"
+     id="g10">
+    <g
+       id="g12">
+      <g
+         clip-path="url(#clipPath18)"
+         id="g14">
+        <g
+           transform="translate(185.5996,245.8389)"
+           id="g20">
+          <path
+             inkscape:connector-curvature="0"
+             id="path22"
+             style="fill:#ea6b23;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 0,0 c -5.289,2.108 -11.354,1.718 -16.326,-1.057 -5.822,-3.247 -8.073,-8.679 -10.364,-14.608 -5.405,-13.985 -21.046,-81.009 -53.076,-92.888 -17.089,-6.338 -36.748,1.245 -43.155,10.98 -8.251,12.539 -10.439,25.448 -12.422,55.831 -0.437,6.691 -0.971,14.291 -5.136,19.868 -3.361,4.497 -8.668,7.337 -14.277,7.609 -11.978,0.581 -21.719,-10.393 -19.672,-22.214 1.384,-8.03 9.837,-79.889 -4.156,-144.99 -1.371,-6.385 -3.182,-12.481 -4.985,-18.751 -1.81,-6.292 -3.294,-12.196 -0.382,-18.428 5.17,-11.063 19.631,-14.148 29.275,-6.655 4.71,3.658 5.824,10.978 8.354,17.088 8.717,21.047 15.149,36.963 21.409,44.346 7.091,8.36 19.142,13.863 30.729,9.869 20.106,-6.93 22.427,-41.881 20.611,-67.236 -0.446,-6.207 -0.7,-11.736 3.195,-16.959 3.343,-4.482 8.578,-7.288 14.157,-7.611 5.735,-0.33 11.416,2.035 15.244,6.315 4.663,5.209 5.257,12.069 5.621,18.74 4.446,81.636 40.358,181.599 43.265,189.204 2.393,6.258 5.228,12.073 3.372,18.892 C 9.724,-6.941 5.501,-2.197 0,0" />
+        </g>
+        <g
+           transform="translate(92.085,161.0444)"
+           id="g24">
+          <path
+             inkscape:connector-curvature="0"
+             id="path26"
+             style="fill:#4f4c4d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="M 0,0 C 14.815,-1.97 28.423,8.436 30.394,23.253 32.364,38.065 21.95,51.671 7.134,53.639 -7.678,55.61 -21.286,45.199 -23.255,30.391 -25.226,15.57 -14.813,1.971 0,0" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
