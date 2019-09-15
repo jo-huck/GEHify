@@ -80,6 +80,11 @@ export class Tab2Page {
       });
     });
   }
+  cancel() {
+    this.imageResponse = [];
+    this.imageProcessed = [];
+    this.processed = false;
+  }
   save(){
     this.imageProcessed.forEach(img => {
       /** Process the type1 base64 string **/

@@ -8,13 +8,14 @@
 </ion-header>
 
 <ion-content>
-  <ion-button id="selectImageBtn" (click)="getImages()" expand="block"
-    >Bilder Wählen</ion-button
+  <ion-button id="selectImageBtn" (click)="getImages()" expand="block" style="margin-top: 15px;"
+    ><ion-icon name="images"></ion-icon> &nbsp; Bilder Wählen</ion-button
   >
   <ion-button color="medium" (click)="addLogo()" *ngIf="imageResponse" expand="block"
-    >Logo hinzufügen</ion-button
+    ><ion-icon name="aperture"></ion-icon> &nbsp; Logo hinzufügen</ion-button
     >
-    <ion-button color="success" (click)="save()" *ngIf="processed" expand="block">Speichern</ion-button>
+    <ion-button color="danger" (click)="cancel()" *ngIf="imageResponse || processed" expand="block"> <ion-icon name="trash"></ion-icon> &nbsp;Abbrechen</ion-button>
+    <ion-button color="success" (click)="save()" *ngIf="processed" expand="block"> <ion-icon name="save"></ion-icon> &nbsp;Speichern</ion-button>
   <section>
     <div class="images">
       <div class="one-image" *ngFor="let img of imageProcessed">
