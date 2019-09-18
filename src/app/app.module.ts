@@ -12,6 +12,7 @@ import { AppComponent } from "./app.component";
 import { ImagePicker } from "@ionic-native/image-picker/ngx";
 import { Base64ToGallery } from '@ionic-native/base64-to-gallery/ngx';
 import { File } from '@ionic-native/file/ngx';
+import { Camera } from '@ionic-native/camera/ngx';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { File } from '@ionic-native/file/ngx';
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
+    Camera,
     StatusBar,
     SplashScreen,
     ImagePicker,

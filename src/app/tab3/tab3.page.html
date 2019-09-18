@@ -7,4 +7,12 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-button (click)="selectVid()" expand="block">Video auswählen</ion-button>
+  <div class="hidden">
+    <img src="/assets/icon/watermark.svg" alt="">
+    <canvas id="transformer"></canvas>7
+    <video></video>
+    <p id="terminal"></p>
+  </div>
+</ion-content>
